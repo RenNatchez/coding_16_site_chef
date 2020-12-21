@@ -16703,4 +16703,23 @@ header .titre-header h1 .d-1 {
   font-size: 85px;
 }
 
+.section-2 {
+  background-image: url(../img/team_background.jpg);
+  background-size: cover;
+}
+.section-2 .d-flex img {
+  height: 450px;
+}
+
+h1 {
+  font-family: "Courgette";
+  font-size: 45px;
+}
+h1 .d-2 {
+  font-size: 65px;
+}
+h1 .d-1 {
+  font-size: 85px;
+}
+
 /*# sourceMappingURL=app.css.map */
