@@ -1,0 +1,60 @@
+header
+    position: relative
+    background-image: url("./public/img/banner1.jpg"), linear-gradient(#000000c0, #000000c0)
+    .nav
+        position: absolute
+        top: 5%
+        left: 50%
+        transform: translateX(-50%)
+        .bg-hover:hover
+            background: #C42D40
+    .carousel-item 
+        height: 100vh
+        min-height: 350px
+        background: no-repeat center center scroll
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        -o-background-size: cover
+        background-size: cover
+        z-index: -2
+    .titre-header
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translateY(-50%) translateX(-50%)
+        width: 80vw
+        h1
+            font-family: 'Courgette'
+            font-size: 45px
+            .d-2
+                font-size:65px 
+            .d-1
+                font-size:85px
+
+// nav bar ipad/iphone placement
+@media screen and ( max-width:768px )
+    .none
+        display: none
+    .navbar-nav
+        z-index: 2
+        background: #000000
+// taille text ipad 
+@media screen and ( max-width:768px )
+    header
+        .titre-header
+            h1
+                font-size: 35px
+                .d-2
+                    font-size: 55px
+                .d-1
+                    font-size: 75px
+// taille text iphone
+@media screen and ( max-width:562px )
+    header
+        .titre-header
+            h1
+                font-size: 20px
+                .d-2
+                    font-size: 30px
+                .d-1
+                    font-size: 40px
