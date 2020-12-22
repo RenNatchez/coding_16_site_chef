@@ -3,38 +3,95 @@
     .menu
         position: relative
         .bg-t-l
-            background-image: url(../img/box-left-top.png)
             position: absolute
-            height: 120px
-            width: 120px
             top: 0
             left: 0
-            background-repeat: no-repeat
-            
         .bg-t-r
-            background-image: url(../img/box-right-top.png)
             position: absolute
             top: 0
-            right: 0
-            height: 120px
-            width: 120px
-            background-repeat: no-repeat
+            right:0
         .bg-b-l
-            background-image: url(../img/box-bottom-left.png)
             position: absolute
             bottom: 0
             left: 0
-            height: 120px
-            width: 120px
-            background-repeat: no-repeat
         .bg-b-r
-            background-image: url(../img/box-bottom_right.png)
             position: absolute
             bottom: 0
             right: 0
-            height: 120px
-            width: 120px
-            background-repeat: no-repeat
+        .icon
+            font-size: 80px
+            color:#E4E4E4 
+            height: 200px
+        h5
+            font-family:'Courgette'
+            font-size: 30px
+        .icon:hover
+            color:#C42D40
+            border-right: #C42D40 5px solid
+        .border-size
+            border: solid 10px #E4E4E4 
+            height: 60%
+        .icon-col2
+            height: 190px
+            border-bottom: 1px#E4E4E4 dotted
+
+
+@media screen and ( max-width:768px )
+    .icon-col2
+        font-size: 12px
+    .none
+        display: none
+    .bg-t-l
+        position: absolute
+        top: 0
+        left: 0
+        width: 25%
+    .bg-t-r
+        position: absolute
+        top: 0
+        right:0
+        width: 25%
+    .bg-b-l
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 25%
+    .bg-b-r
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 25%
+@media screen and ( max-width: 568px )
+    .icon-col2
+        font-size: 12px
+    .none
+        display: none
+    .bg-t-l
+        position: absolute
+        top: 0
+        left: 0
+        width: 30%
+    .bg-t-r
+        position: absolute
+        top: 0
+        right:0
+        width: 30%
+    .bg-b-l
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 30%
+    .bg-b-r
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 30%
+
+
+
+
+      
+        // gris
         h1
             font-family: 'Courgette'
             font-size: 45px
@@ -48,6 +105,7 @@
     .d-flex
         img
             height: 450px
+
 h1
             font-family: 'Courgette'
             font-size: 45px
@@ -55,3 +113,5 @@ h1
                 font-size:65px 
             .d-1
                 font-size:85px
+
+
