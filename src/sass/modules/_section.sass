@@ -206,17 +206,24 @@ h1
 .section-3
     background-image: url(../img/testimonials_background.jpg)
     background-size: cover
+    img
+        width: 75%
     .border-size
         border: solid 10px #888585 
     .border-client
         border: solid 3px #ffffff
         border-radius: 10px
-        width: 60%
+        width: 65%
+
+    @media screen and ( max-width:768px )
+        .border-client
+            width: 50%
+
     @media screen and ( max-width:568px )
         .border-size
             border: solid 10px #888585 
         .border-client
             border: solid 3px #ffffff
             border-radius: 10px
-            width: 80%
+            width: 90%
             margin-top: 10px
