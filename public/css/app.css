@@ -16907,5 +16907,28 @@ h1 .d-1 {
     padding-top: 20px;
   }
 }
+.section-3 {
+  background-image: url(../img/testimonials_background.jpg);
+  background-size: cover;
+}
+.section-3 .border-size {
+  border: solid 10px #888585;
+}
+.section-3 .border-client {
+  border: solid 3px #ffffff;
+  border-radius: 10px;
+  width: 60%;
+}
+@media screen and (max-width: 568px) {
+  .section-3 .border-size {
+    border: solid 10px #888585;
+  }
+  .section-3 .border-client {
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 10px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
